@@ -21,8 +21,14 @@ Aplicando a propriedade "display: flex" em uma tag pai, todos itens contidos nel
 
  - flex-flow: concilia a propriedade flex-direction e flex-wrap;
    - flex-flow: row nowrap;
-   
+
  - justify-content: alinhar os itens do container de acordo com a sua direção;
+   - justify-content: flex-start => posiciona os itens ajustados para o lado esquerdo;
+   - justify-content: flex-end => posiciona os itens ajustados para o lado direito;
+   - justify-content: center => posisiona os itens ajustados ao centro;
+   - justify-content: space-between => posiciona os itens de forma a adicionar espaços iguais entre os itens.
+   - justify-content: space-around => posiciona os itens de forma a adicionar "margens" iguais ao redor de cada item.
+
  - align-itens: alinhar os itens de acordo com o eixo do container;
  - align-content: alinhar as linhas do container;
 
