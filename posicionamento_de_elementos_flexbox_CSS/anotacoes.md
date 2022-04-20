@@ -30,6 +30,12 @@ Aplicando a propriedade "display: flex" em uma tag pai, todos itens contidos nel
    - justify-content: space-around => posiciona os itens de forma a adicionar "margens" iguais ao redor de cada item.
 
  - align-itens: alinhar os itens de acordo com o eixo do container;
+   - center: alinha os itens ao centro;
+   - stretch: padrão;
+   - flex-start: alinhamento dos itens no início;
+   - flex-end: alinhamento dos itens no final;
+   - baseline: alinhamento de acordo com a linha base da tipografia dos itens;
+
  - align-content: alinhar as linhas do container;
 
 ## Flex Item
