@@ -8,6 +8,10 @@ Aplicando a propriedade "display: flex" em uma tag pai, todos itens contidos nel
 
  - display: inicializador da propriedade flex;
  - flex-direction: direcionamento em linha ou em coluna;
+   -  row: direção horizontal no sentido da esquerda para a direta;
+   - row-reverse: direção horizontal no sentido da direita para a esquerda;
+   - column: direção vertical no sentido de cima para baixo;
+   - column: direção vertical no sentido de baixo para cima;
  - flex-wrap: quebra de linha ou não;
  - flex-flow: concilia a propriedade flex-direction e flex-wrap;
  - justify-content: alinhar os itens do container de acordo com a sua direção;
