@@ -13,6 +13,9 @@ Aplicando a propriedade "display: flex" em uma tag pai, todos itens contidos nel
    - column: direção vertical no sentido de cima para baixo;
    - column: direção vertical no sentido de baixo para cima;
  - flex-wrap: quebra de linha ou não;
+   - nowrap: não há a quebra de linha, o container comporta todos os itens contidos nele ou não comporta, fazendo com que os itens ultrapassem o limite do container.
+   - wrap: permite a quebra de linha, de forma que o primeiro elemento que não seja comportado na primeira linha do container, ele passe a ocupar a segunda linha
+   - wrap-reverse: permite a quebra de linha, de forma que o primeiro elemento que não seja comportado na primeira linha do container, ele passe a ocupar a linha acima.
  - flex-flow: concilia a propriedade flex-direction e flex-wrap;
  - justify-content: alinhar os itens do container de acordo com a sua direção;
  - align-itens: alinhar os itens de acordo com o eixo do container;
