@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flex</title>
+  <style>
+    .flex-container {
+      width: 200px;
+      height: 100px;
+      border: 2px solid black;
+      display: flex;
+    }
+    .item {
+      width: 50px;
+      height: 100%;
+    }
+    #item1 {
+      background-color: lightblue;
+    }
+    #item2 {
+      background-color: lightcoral;
+    }
+    #item3 {
+      background-color: lightgreen;
+    }
+    #item4 {
+      background-color: lightpink;
+    }
+    .flex-auto {
+      flex: auto;
+    }
+    .flex-1 {
+      flex: 1;
+    }
+    .flex-2 {
+      flex: 2;
+    }
+    .flex-3 {
+      flex: 3;
+    }
+  </style>
+</head>
+<body>
+  <div class="flex-container">
+    <div class="item flex-auto" id="item1">auto</div>
+    <div class="item flex-1" id="item2">1</div>
+    <div class="item flex-2" id="item3">2</div>
+    <div class="item flex-3" id="item4">3</div>
+  </div>
+</body>
+</html>
