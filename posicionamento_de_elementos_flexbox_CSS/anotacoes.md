@@ -55,7 +55,7 @@ São os elementos filhos diretos de um flex container. E que tambpem podem ser f
 
  - flex-grow: define o fator de crescimento;
    - não funciona quando aplicado a propriedade de justify-content.
- - flex-basis: define o tamanho inicial do item antes da distribuição do espaço restante dentro do container;
+ - flex-basis: define o tamanho mínimo inicial dos itens antes da distribuição do espaço restante dentro do container;
  - flex-shrink: capacidade de redução;
  - flex: concilia as propriedades flex-grow, flex-basis e flex-shrink;
  - order: ordem de distribuição e listagem dos itens;
