@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flex Shrink</title>
+  <style>
+    .flex-container {
+      display: flex;
+      border: 2px solid black;
+      width: 300px;
+      height: 100px;
+    }
+    .item {
+      height: 100%;
+      width: 100px;
+      flex-shrink: 1;
+    }
+    .item:nth-of-type(2) {
+      flex-shrink: 2;
+    }
+    #item1 {
+      background-color: lightblue;
+    }
+    #item2 {
+      background-color: lightcoral;
+    }
+    #item3 {
+      background-color: lightgreen;
+    }
+    #item4 {
+      background-color: lightpink;
+    }
+    #item5 {
+      background-color: lightsalmon;
+    }
+  </style>
+</head>
+<body>
+  <div class="flex-container">
+    <div class="item" id="item1"></div>
+    <div class="item" id="item2"></div>
+    <div class="item" id="item3"></div>
+    <div class="item" id="item4"></div>
+    <div class="item" id="item5"></div>
+  </div>
+</body>
+</html>
