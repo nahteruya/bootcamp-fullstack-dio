@@ -37,6 +37,15 @@ Aplicando a propriedade "display: flex" em uma tag pai, todos itens contidos nel
    - baseline: alinhamento de acordo com a linha base da tipografia dos itens;
 
  - align-content: alinhar as linhas do container;
+   - center: alinha os itens ao centro;
+   - stretch: padrão;
+   - flex-start: alinhamento dos itens no início;
+   - flex-end: alinhamento dos itens no final;
+   - space-between: posiciona os itens de forma a adicionar espaços iguais entre os itens.
+   - space-around: posiciona os itens de forma a adicionar "margens" iguais ao redor de cada item.
+   - OBS: para utilizar a propriedade align-content é necessário que:
+     - O container utilize quebra de linhas
+     - A altura do container seja maior do que a soma das alturas das linhas 
 
 ## Flex Item
 

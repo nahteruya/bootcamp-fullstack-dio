@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Align Content</title>
+  <style>
+    .container {
+      max-width: 300px;
+      height: 200px;
+      display: flex;
+      flex-wrap: wrap;
+      border: 2px solid black;
+      border-radius: 8px;
+    }
+    .item {
+      width: 50px;
+      height: 50px;
+      background-color: chocolate;
+      margin: 5px;
+    }
+    .stretch {
+      align-content: stretch;
+    }
+    .center {
+      align-content: center;
+    }
+    .flex-start {
+      align-content: flex-start;
+    }
+    .flex-end {
+      align-content: flex-end;
+    }
+    .space-between {
+      align-content: space-between;
+    }
+    .space-around {
+      align-content: space-around;
+    }
+  </style>
+</head>
+<body>
+  <p>Stretch</p>
+  <div class="container stretch">
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+  </div>
+
+  <p>Center</p>
+  <div class="container center">
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+  </div>
+
+  <p>Flex-start</p>
+  <div class="container flex-start">
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+  </div>
+
+  <p>Flex-end</p>
+  <div class="container flex-end">
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+  </div>
+
+  <p>Space Between</p>
+  <div class="container space-between">
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+  </div>
+
+  <p>Space Around</p>
+  <div class="container space-around">
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+  </div>
+</body>
+</html>
