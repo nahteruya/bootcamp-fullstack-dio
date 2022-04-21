@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flex Grow</title>
+  <style>
+    .flex-content {
+      display: flex;
+      border: 2px solid black;
+      max-width: 500px;
+    }
+    .item {
+      width: 50px;
+      height: 50px;
+      margin: 5px;
+      background-color: aquamarine;
+      line-height: 50px;
+      text-align: center;
+    }
+    .flex-grow-0 {
+      flex-grow: 0;
+    }
+    .flex-grow-1 {
+      flex-grow: 1;
+    }
+    .flex-grow-2 {
+      flex-grow: 2;
+    }
+    .flex-grow-3 {
+      flex-grow: 3;
+    }
+  </style>
+</head>
+<body>
+  <p>Flex Grow em 0</p>
+  <div class="flex-content">
+    <div class="item flex-grow-0">A</div>
+    <div class="item flex-grow-0">B</div>
+    <div class="item flex-grow-0">C</div>
+    <div class="item flex-grow-0">D</div>
+    <div class="item flex-grow-0">E</div>
+  </div>
+
+  <p>Flex Grow em 1</p>
+  <div class="flex-content">
+    <div class="item flex-grow-1">A</div>
+    <div class="item flex-grow-1">B</div>
+    <div class="item flex-grow-1">C</div>
+    <div class="item flex-grow-1">D</div>
+    <div class="item flex-grow-1">E</div>
+  </div>
+
+  <p>Flex Grow alternado</p>
+  <div class="flex-content">
+    <div class="item flex-grow-1">A</div>
+    <div class="item flex-grow-3">B</div>
+    <div class="item flex-grow-1">C</div>
+    <div class="item flex-grow-3">D</div>
+    <div class="item flex-grow-1">E</div>
+  </div>
+</body>
+</html>
