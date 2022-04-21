@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Align Self</title>
+  <style>
+    .flex-container {
+      width: 300px;
+      height: 300px;
+      border: 2px solid black;
+      display: flex;
+    }
+    .column {
+      flex-direction: column;
+    }
+    .item {
+      min-width: 50px;
+      min-height: 50px;
+      text-align: center;
+      margin: 5px;
+      background-color: cornflowerblue;
+    }
+    .align-self-auto {
+      align-self: auto;
+    }
+    .align-self-start {
+      align-self: flex-start;
+    }
+    .align-self-end {
+      align-self: flex-end;
+    }
+    .align-self-center {
+      align-self: center;
+    }
+
+  </style>
+</head>
+<body>
+  <h1>Row</h1>
+  <div class="flex-container">
+    <div class="item align-self-auto">A</div>
+    <div class="item align-self-start">B</div>
+    <div class="item align-self-end">C</div>
+    <div class="item align-self-center">D</div>
+  </div>
+
+  <h1>Column</h1>
+  <div class="flex-container column">
+    <div class="item align-self-auto">A</div>
+    <div class="item align-self-start">B</div>
+    <div class="item align-self-end">C</div>
+    <div class="item align-self-center">D</div>
+  </div>
+</body>
+</html>
